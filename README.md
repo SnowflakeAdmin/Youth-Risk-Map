@@ -1,7 +1,9 @@
 # Youth-Risk-Map
-Eine digitale Karte, in der die Wahrscheinlichkeit für Kindeswohlgefährdung auf Grundlage des Zensus 2011 im 100m x 100m Radius angezeigt wird.
+A digital map showing the probability of child endangerment based on the 2011 census in a 100m x 100m radius.
 
-**Der SQL-Query (BigQuery) für die Berechnung des Risikos:**
+The scripts for data transformation are also included in the repository. (Named after the respective data set.)
+
+**The SQL query (BigQuery) for calculating the risk:**
 ```sql
 DECLARE parent_divorce_weight FLOAT64 DEFAULT 2;
 DECLARE unmarried_families_weight FLOAT64 DEFAULT 1.5;
