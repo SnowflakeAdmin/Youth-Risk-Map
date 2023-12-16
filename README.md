@@ -1,5 +1,5 @@
 # Youth-Risk-Map
-A digital map showing the probability of child endangerment based on the 2011 census in a 100m x 100m radius.
+A digital map showing the probability of child endangerment for Germany based on the 2011 census in a 100m x 100m radius.
 
 The scripts for data transformation are also included in the repository. (Named after the respective data set.)
 
